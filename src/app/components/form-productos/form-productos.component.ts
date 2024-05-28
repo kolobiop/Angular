@@ -28,11 +28,11 @@ export class FormProductosComponent implements OnInit {
   }
 
   onSubmit(): void {
-    console.log('Product:', this.registerProductos.value.producto);
+    console.log('Producto:', this.registerProductos.value.producto);
     console.log('Cantidad:', this.registerProductos.value.cantidad);
-    console.log('Fecha de vencimiento:', this.registerProductos.value.fecha);
-    console.log('Proveedor:', this.registerProductos.value.proveedor);
-    console.log('Precio:', this.registerProductos.value.precio);
+    console.log('Precio:', this.registerProductos.value.fecha);
+    console.log('Marca:', this.registerProductos.value.proveedor);
+    console.log('Modelo:', this.registerProductos.value.precio);
   }
 
 }

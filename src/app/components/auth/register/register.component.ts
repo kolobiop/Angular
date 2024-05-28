@@ -30,10 +30,10 @@ export class RegisterComponent implements OnInit {
 ngOnInit(): void {
 }
 onSubmit(): void {
-  console.log('Username:', this.registerForm.value.username);
-  console.log('Correo:', this.registerForm.value.email);
-  console.log('Password:', this.registerForm.value.password);
-  console.log('Confirm Password:', this.registerForm.value.confirmPassword);
-  console.log('Cumpleaños:', this.registerForm.value.birthdate);
+  console.log('Usuario:', this.registerForm.value.username);
+  console.log('Email:', this.registerForm.value.email);
+  console.log('Contraseña:', this.registerForm.value.password);
+  console.log('Confirmación de contraseña:', this.registerForm.value.confirmPassword);
+  console.log('Fecha de nacimiento:', this.registerForm.value.birthdate);
 }
 }

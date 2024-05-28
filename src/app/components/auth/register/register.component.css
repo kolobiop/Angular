@@ -1,59 +1,68 @@
-/* Estilos para el formulario de registro */
 .register-form {
-    max-width: 500px;
-    margin: 0 auto;
-    background: linear-gradient(135deg, #ff00d4, #f7f3c7);
-    padding: 50px;
-    border-radius: 20px;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
-  }
-  
-  /* Estilos para los grupos de formulario */
-  .form-group {
-    margin-bottom: 25px;
-  }
-  
-  /* Estilos para las etiquetas */
-  label {
-    display: block;
-    margin-bottom: 10px;
-    color: #fff;
-    font-weight: bold;
-  }
-  
-  /* Estilos para los campos de entrada */
-  .form-control {
-    width: 100%;
-    padding: 15px;
-    background-color: rgba(255, 255, 255, 0.3);
-    border: none;
-    border-radius: 10px;
-    transition: background-color 0.3s ease;
-    font-size: 16px;
-    color: #fff;
-  }
-  
-  .form-control:focus {
-    background-color: rgba(255, 255, 255, 0.5);
-    outline: none;
-  }
-  
-  /* Estilos para el botón de inicio de sesión */
-  .btn {
-    display: inline-block;
-    background-color: #fff;
-    color: #ff00ae;
-    padding: 15px 25px;
-    border: none;
-    border-radius: 10px;
-    cursor: pointer;
-    transition: background-color 0.3s ease, color 0.3s ease;
-    font-size: 16px;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-  }
-  
-  .btn:hover {
-    background-color: #e1ff34;
-    color: black;
-  }
+  max-width: 500px;
+  margin: 0 auto;
+  background: url('https://www.transparenttextures.com/patterns/3px-tile.png'), linear-gradient(to bottom, #5bc6d4, #5bc6d4); 
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+  color: #989898;
+  position: relative;
+  animation: fadeInUp 0.5s ease;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  color: #989898;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.form-control {
+  width: 100%;
+  padding: 12px;
+  background-color: rgba(255, 255, 255, 0.826); 
+  border: 1px solid rgba(255, 255, 255, 0.5); 
+  border-radius: 5px;
+  color: #989898;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.form-control:focus {
+  border-color: #989898;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.7); 
+  color: #989898;
+}
+
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  color: #ffffff; 
+  font-weight: bold;
+  font-size: 16px;
+}
+
+
+.btn {
+  display: block;
+  background-color: #ffffff;
+  color: #989898;
+  padding: 15px 35px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  transition: all 0.3s ease;
+  font-size: 18px;
+  margin: 0 auto;
+}
+
+.btn:hover {
+  background-color: #75bfcc;
+  color: rgb(255, 255, 255);
+}

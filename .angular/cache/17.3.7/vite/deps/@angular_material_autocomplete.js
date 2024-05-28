@@ -1,10 +1,7 @@
 import {
   MAT_FORM_FIELD,
   MatFormField
-} from "./chunk-KAKARTUX.js";
-import {
-  NG_VALUE_ACCESSOR
-} from "./chunk-BGMVO3UM.js";
+} from "./chunk-6RJWKUI4.js";
 import {
   animate,
   group,
@@ -17,7 +14,7 @@ import {
   Overlay,
   OverlayConfig,
   OverlayModule
-} from "./chunk-42GMH3AR.js";
+} from "./chunk-5LQQPK3B.js";
 import {
   CdkScrollableModule,
   ViewportRuler
@@ -32,18 +29,16 @@ import {
   MatOptionSelectionChange,
   _countGroupLabelsBeforeOption,
   _getOptionScrollPosition
-} from "./chunk-IY5KKEON.js";
+} from "./chunk-LEJ4WGL2.js";
+import {
+  NG_VALUE_ACCESSOR
+} from "./chunk-BGMVO3UM.js";
+import "./chunk-U5METXNE.js";
 import {
   ActiveDescendantKeyManager,
   addAriaReferencedId,
   removeAriaReferencedId
-} from "./chunk-SQ2XQHUF.js";
-import "./chunk-U5METXNE.js";
-import "./chunk-HLZO443G.js";
-import "./chunk-6UHVHPYX.js";
-import {
-  coerceStringArray
-} from "./chunk-OX4AUYZC.js";
+} from "./chunk-5G2UNJJN.js";
 import {
   DOWN_ARROW,
   ENTER,
@@ -52,6 +47,11 @@ import {
   UP_ARROW,
   hasModifierKey
 } from "./chunk-CJNMZQC3.js";
+import "./chunk-HLZO443G.js";
+import "./chunk-6UHVHPYX.js";
+import {
+  coerceStringArray
+} from "./chunk-OX4AUYZC.js";
 import {
   Directionality
 } from "./chunk-J3DRYHDG.js";
